@@ -1,0 +1,20 @@
+{{ $projectName := site.Params.projectName }}
+{{ $year := now.Year }}
+{{ $social := site.Params.social }}
+
+<footer class="footer mt-5">
+  <div class="container-xl">
+    
+    <p>
+      &copy; {{ $year }} The {{ $projectName }} Authors | Documentation Distributed under CC-BY-4.0
+      </br>
+      &copy; {{ $year }} The Linux Foundation. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage/">Trademark Usage</a> page.
+    </p>
+
+    <div class="social-footer mb-5">
+      {{ with $social }}
+        {{ partial "social-buttons.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</footer>
