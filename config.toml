@@ -1,0 +1,75 @@
+title = "Parsec"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+enableGitInfo = true
+
+
+
+[caches]
+ [caches.assets]
+  dir = ":cacheDir/_gen"
+  maxAge = -1
+ [caches.getcsv]
+  dir = ":cacheDir/:project"
+  maxAge = "60s"
+ [caches.getjson]
+  dir = ":cacheDir/:project"
+  maxAge = "60s"
+ [caches.images]
+  dir = ":cacheDir/_images"
+  maxAge = -1
+ [caches.modules]
+  dir = ":cacheDir/modules"
+  maxAge = -1
+
+[markup.highlight]
+style = "paraiso-dark"
+
+[params]
+projectName = "Parsec"
+font_awesome_version = "5.12.0"
+description = "Website for the Parsec project"
+favicon = "favicon.png"
+repositoryUrl = "https://github.com/tbd"
+contentDir = "/content/"
+
+[params.logos]
+navbar = "parsec-icon-white.svg"
+
+[[params.social]]
+name = "GitHub"
+color = "#000000"
+url = "https://github.com/parallaxsecond/parsec"
+icon = "fab fa-github"
+
+[[params.social]]
+name = "Slack"
+color = "#4A154B"
+url = "https://github.com/parallaxsecond/community#community-channel"
+icon = "fab fa-slack"
+
+[[params.fonts]]
+name = "Fira Sans"
+sizes = [300, 400, 600, 700]
+type = "sans_serif"
+
+[[params.fonts]]
+name = "Fira Mono"
+sizes = [300, 400, 600, 700]
+type = "monospace"
+
+[[params.fonts]]
+name = "Fire Sans"
+sizes = [100, 200, 300, 400, 500, 600, 700]
+type = "heading_font"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Documentation"
+url = "https://parallaxsecond.github.io/parsec-book/"
+weight = 2
+
