@@ -45,6 +45,20 @@ title: "Parsec"
   </div>
 {{< /jumbotron >}}
 
+{{< jumbotron title="News" bgcolor="#e9ecef" textcolor="#000000" align="text-left" >}}
+
+<div class="mt-5 row features">
+  <div class="col col-md-12 col-12">
+    <ul>
+    <li><a href="https://netfoundry.io/secure-networking-for-connected-and-autonomous-vehicles/">Secure networking for connected and autonomous vehicles</a> &mdash; November 30, 2021</li>
+    <li><a href="https://community.arm.com/arm-community-blogs/b/tools-software-ides-blog/posts/parsec-adds-security-for-aws-iot-greengrass">Parsec adds a new level of security for AWS IoT Greengrass</a> &mdash; November 23, 2021</li>
+    <li><a href="https://azure.microsoft.com/en-us/blog/the-enclave-device-blueprint-for-confidential-computing-at-the-edge/">The Enclave Device Blueprint for confidential computing at the edge</a> &mdash; October 19, 2021</li>
+    </ul>
+  </div>
+</div> 
+
+{{< /jumbotron >}}
+
 {{< jumbotron bgcolor="#FFFFFF" textcolor="#000000" align="text-left" >}}
 
 {{< logos >}}
